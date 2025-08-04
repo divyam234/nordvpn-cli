@@ -50,11 +50,9 @@ sudo pacman -S curl jq wireguard-tools iproute2 iptables bind-tools
 ```
 
 ## Installation
-
-1. Clone or download this repository
-2. Make the script executable:
    ```bash
-   chmod +x nordvpn.sh
+   sudo curl -so /usr/bin/nordvpn https://raw.githubusercontent.com/divyam234/nordvpn-cli/main/nordvpn
+   sudo chmod +x /usr/bin/nordvpn
    ```
 
 ## Configuration
