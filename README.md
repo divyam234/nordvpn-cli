@@ -98,7 +98,7 @@ Create a JSON configuration file at `~/.config/nordlynx-cli/config.json`:
 The script must be run as root:
 
 ```bash
-sudo ./nordvpn.sh <command> [options]
+sudo nordvpn <command> [options]
 ```
 
 ### Commands
@@ -112,22 +112,22 @@ sudo ./nordvpn.sh <command> [options]
 
 Connect using configuration file:
 ```bash
-sudo ./nordvpn.sh up
+sudo nordvpn up
 ```
 
 Connect to a German server, overriding config:
 ```bash
-sudo ./nordvpn.sh up --country-code de
+sudo nordvpn up --country-code de
 ```
 
 Connect with a specific token:
 ```bash
-sudo ./nordvpn.sh up --token "your_token"
+sudo nordvpn up --token "your_token"
 ```
 
 Disconnect:
 ```bash
-sudo ./nordvpn.sh down
+sudo nordvpn down
 ```
 
 ## Firewall
